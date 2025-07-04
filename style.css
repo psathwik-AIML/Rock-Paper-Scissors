@@ -50,5 +50,14 @@ h2{
 @keyframes move{
   0%,100%{transform:scale(1)}
   50%{transform:scale(2)}
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
 
+  .button {
+    width: 100%;
+    font-size: 1.2em;
+  }
 }
