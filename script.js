@@ -34,6 +34,8 @@ reset.addEventListener('click',function(){
      computer_choice.textContent = "";
      result.textContent = "play again";
      result.style.color = '#F1C550';
+    user_choice.textContent='user choice';
+    computer_choice.textContent='computer choice';
 })
 function computerChoice(){
     let index=Math.floor(Math.random()*buttons.length);
