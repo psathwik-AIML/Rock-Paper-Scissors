@@ -53,3 +53,18 @@ h2{
   50%{transform:scale(2)}
 
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .button {
+    width: 100%;
+    font-size: 1.2em;
+  }
+  body {
+  padding: 20px;
+}
+
+}
+
