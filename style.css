@@ -51,7 +51,11 @@ h2{
   0%,100%{transform:scale(1)}
   50%{transform:scale(2)}
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
+  .container{
+    width:90%;
+    padding:20px;
+  }
   h1 {
     font-size: 2em;
   }
@@ -60,4 +64,7 @@ h2{
     width: 100%;
     font-size: 1.2em;
   }
+  body{
+    padding:20px 0;
+  } 
 }
