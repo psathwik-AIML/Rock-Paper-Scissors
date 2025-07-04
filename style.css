@@ -13,7 +13,8 @@ body{
   box-sizing: border-box;
 }
 .container{
-  width:500px;
+  width:90%;
+  max-width:500px;
   padding:15px 25px;
   border-radius: 20px;
   text-align: center;
@@ -50,21 +51,5 @@ h2{
 @keyframes move{
   0%,100%{transform:scale(1)}
   50%{transform:scale(2)}
-}
-@media (max-width: 600px) {
-  .container{
-    width:90%;
-    padding:20px;
-  }
-  h1 {
-    font-size: 2em;
-  }
 
-  .button {
-    width: 100%;
-    font-size: 1.2em;
-  }
-  body{
-    padding:20px 0;
-  } 
 }
